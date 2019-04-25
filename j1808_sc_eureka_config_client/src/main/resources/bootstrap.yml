@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: neo-config
+      profile: test
+      uri: http://localhost:8766
+      label: master

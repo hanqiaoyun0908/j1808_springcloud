@@ -1,0 +1,11 @@
+server:
+  port: 8766
+spring:
+  application:
+    name: spring-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hanqiaoyun0908/gitwork
+          search-paths: config
